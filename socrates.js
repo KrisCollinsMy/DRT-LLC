@@ -31,7 +31,7 @@ class Bird extends Animal {
     if (this.can_fly) {
       return `I'm flying`;
     } else {
-      return `I'm moving with ${this.leg_number} legs!`;
+      return super.move();
     }
   }
 }
